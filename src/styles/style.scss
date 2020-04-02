@@ -1,0 +1,104 @@
+/**************************************************
+                SASS variables 
+***************************************************/
+$fontcolor: #2bb2ff;
+
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+		url('/src/assets/apple-desktop.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+/*****************************************************
+                ID Styles
+******************************************************/
+#timer {
+	font-size: 3em;
+}
+
+/*****************************************************
+                Header Styles
+******************************************************/
+.subtitle-header {
+	color: #fff;
+	font-size: small;
+	padding: 0;
+	margin: 0;
+
+	li {
+		list-style-type: none;
+		display: inline;
+		padding-right: 0.625em;
+	}
+}
+
+.title {
+	font-size: 3em;
+	color: $fontcolor;
+	margin: 0;
+	padding: 0;
+}
+
+.fa-linkedin-in {
+	font-size: 2.5em;
+	color: $fontcolor;
+	padding: 0.625em;
+	text-decoration: none;
+	cursor: pointer;
+	transition: ease-in 0.3s;
+}
+
+.fa-twitter {
+	font-size: 2.5em;
+	color: $fontcolor;
+	text-decoration: none;
+	cursor: pointer;
+	transition: ease-in 0.3s;
+}
+
+.fa-linkedin-in:hover {
+	color: #94ccec;
+}
+
+.fa-twitter:hover {
+	color: #94ccec;
+}
+
+/*****************************************************
+                Media Queries
+******************************************************/
+
+@media screen and (max-width: 768px) {
+	#timer {
+		font-size: 1.5em;
+	}
+
+	.subtitle-header li {
+		display: block;
+		padding: 0.5em;
+	}
+
+	.title {
+		font-size: 1em;
+	}
+
+	.fa-linkedin-in {
+		font-size: 1.25em;
+	}
+
+	.fa-twitter {
+		font-size: 1.25em;
+	}
+}

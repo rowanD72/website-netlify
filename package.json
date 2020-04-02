@@ -1,0 +1,16 @@
+{
+  "name": "website-netlify",
+  "version": "1.0.0",
+  "description": "countdown website template",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "sass",
+    "javascript"
+  ],
+  "author": "David Rowan III",
+  "license": "ISC"
+}
