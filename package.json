@@ -5,8 +5,8 @@
 	"main": "app.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "node src/index.html",
-		"start": "node src/index.html"
+		"build": "parcel build index.html",
+		"start": "parcel serve index.html"
 	},
 	"keywords": [
 		"html",
@@ -14,5 +14,8 @@
 		"javascript"
 	],
 	"author": "David Rowan III",
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"parcel": "^2.0.0-alpha.3.2"
+	}
 }

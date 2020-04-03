@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Professional Web Developer, building custom mobile apps and websites in Arlington, TX.">
+	<meta name="author" content="DR3 WEB DEV">
+	<meta name="keywords" content="Web Sites, Mobile Apps, Design, ecommerce, Code, Programming, CMS">
+	<script src="41acd0bb352540b338e8437aa84f6d42" crossorigin="anonymous" type="text/javascript"></script>
+	<link type="text/css" href="6241094c8d77020ca8d1fee810f61032" rel="stylesheet">
+	<link rel="stylesheet" href="85278e83293c1041139ca8aaab169976">
+	<title>DR3 Web Dev & Design</title>
+</head>
+
+<body>
+	<header class="subtitle-header">
+		<ul>
+			<li>MOBILE</li>
+			<li>WEBSITES</li>
+			<li>DESIGN</li>
+		</ul>
+	</header>
+	<div class="title">
+		<h1>DR3 WEB DEV & DESIGN</h1>
+	</div>
+	<div id="timer"></div>
+	<div class="social-links">
+		<a href="98ad9a442c93d11e7797e3fe37aa7495" <i="" class="fab fa-linkedin-in"></a>
+		<a href="ab50a5e7e68855a19577ac70bb336f2c" <i="" class="fab fa-twitter"></a>
+	</div>
+
+	<script src="1e39fc443c3d471795c308b14b819f12"></script>
+	<script src="e2d93a79bcd1246188dd74cb3de687c4"></script>
+</body>
+
+</html>
